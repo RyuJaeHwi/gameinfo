@@ -1,0 +1,28 @@
+/* Screen2.css */
+.Screen2Page {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../assets/BackGround_Synopsys.png');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  /* 수직 중앙 정렬 */
+    align-items: center;  /* 수평 중앙 정렬 */
+    overflow: hidden;
+  }
+  
+  .Screen2Page h1 {
+    color: white;
+    font-size: 3rem;
+  }
+  
+  .GameSubTitle {
+    max-width: 60%;  /* 이미지 크기를 화면 너비의 80%로 제한 */
+    height: auto;  /* 비율에 맞춰 자동 조정 */
+    margin-top: -400px;  /* 위로 이동 (값을 조정하여 위치 변경) */
+    margin-left: 900px;  /* 왼쪽으로 이동 (값을 조정하여 위치 변경) */
+  }
+  

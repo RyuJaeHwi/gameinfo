@@ -1,0 +1,44 @@
+/* Screen1.css */
+.Screen1Page {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../assets/BackGround_GameTitle.png');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+  }
+  
+ /* GameTitle 배경 이미지 */
+.GameTitle {
+    width: 80vw;  /* 화면 너비의 80%로 설정 */
+    height: 60vh;  /* 화면 높이의 50%로 설정 */
+    background-image: url('../assets/GameTitle.png');
+    background-size: contain;  /* 이미지 비율에 맞게 조정 */
+    background-repeat: no-repeat;
+    position: absolute; /* 절대 위치로 설정 */
+    z-index: 2; /* GameTitle을 위로 */
+    top: 20vh;  /* 화면 높이의 10% 위치 */
+    left: -5vw; /* 화면 너비의 10% 위치 */
+}
+
+/* GameSubTitle 배경 이미지 */
+.GameSubTitle {
+    width: 80vw;  /* GameTitle과 동일한 너비로 설정 */
+    height: 50vh;  /* 화면 높이의 30%로 설정 */
+    background-image: url('../assets/GameSubTitle.png');
+    background-size: contain;  /* 이미지 비율에 맞게 조정 */
+    background-repeat: no-repeat;
+    position: absolute; /* 절대 위치로 설정 */
+    z-index: 3; /* GameSubTitle을 GameTitle 위로 */
+    top: 52vh;  /* GameTitle 아래에 배치 */
+    left: -2vw; /* 화면 너비의 10% 위치 */
+}
+  
